@@ -4,9 +4,9 @@
 }
 
 :root {
-  --main-color: #0499ff;
+  --main-color: #000000;
   --link-hover: #6dc4ff;
-  --background: #ebeef4;
+  --background: #000000;
 }
 
 /*** GENERAL CSS ***/
@@ -75,7 +75,7 @@ a.social:hover {
 /*** NAVIGATION CSS ***/
 .main-nav {
     width: 100%;
-    background: black;
+    background: white;
     min-height: 30px;
     padding: 0;
     position: fixed;
