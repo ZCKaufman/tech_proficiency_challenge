@@ -5,7 +5,7 @@
 
 :root {
   --main-color: #000000;
-  --link-hover: #6dc4ff;
+  --link-hover: #8b292c;
   --background: #000000;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 }
 
 .nav a:hover {
-    color: white;
+    color: var(--link-hover);
 }
 
 a.social {
@@ -142,9 +142,10 @@ header .profile-image:hover {
 }
 
 .information {
-    background-color: #FFF;
-    color: var(--main-color);
+    background-color: var(--link-hover);
+    color: #fff;
     margin-bottom: 20px;
+    border: 2px solid white;
 }
 
 /*** CARD CSS ***/
@@ -164,7 +165,7 @@ header .profile-image:hover {
 }
 
 .card:hover {
-  border-color: var(--main-color);
+  border-color: var(--link-hover);
   transform: scale(1.05);
 }
 
@@ -198,6 +199,7 @@ footer {
 footer .copyright {
     top: -8px;
     size: .75em;
+    color: white;
 }
 
 footer ul {
@@ -248,7 +250,7 @@ footer ul li {
     footer {
         font-size: 1.3em;
         max-width: 1200px;
-        margin: 40px auto;
+        margin: 10px auto;
     }
 
 }
@@ -306,7 +308,7 @@ footer ul li {
     footer {
         font-size: 1.3em;
         max-width: 1200px;
-        margin: 40px auto;
+        margin: 10px auto;
     }
 
 }
