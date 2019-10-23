@@ -215,14 +215,18 @@ footer ul li {
     .flex {
         flex-direction: row;
         display: inline-flex;
-        /*min-width: 90%;
-        max-width: 1200px; */
+        min-width: 90%;
+        max-width: 1200px; 
         justify-content: flex-start;
         align-items: flex-start;
         align-content: center;
         margin: 40px auto;
         flex-wrap: wrap;
         height: auto;
+    }
+
+    .card {
+        width: 100%
     }
 
     .column {
