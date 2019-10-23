@@ -136,7 +136,7 @@ header .profile-image:hover {
 }
 
 .title {
-    background-color: var(--background);
+    background-color: #FFF;
 }
 
 .information {
@@ -215,8 +215,8 @@ footer ul li {
     .flex {
         flex-direction: row;
         display: inline-flex;
-        /*min-width: 90%;
-        max-width: 1200px; */
+        min-width: 90%;
+        max-width: 1200px;
         justify-content: flex-start;
         align-items: flex-start;
         align-content: center;
