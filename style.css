@@ -194,6 +194,7 @@ footer {
 }
 
 footer .copyright {
+    color: black;
     top: -8px;
     size: .75em;
 }
