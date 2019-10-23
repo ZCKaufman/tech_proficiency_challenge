@@ -5,7 +5,7 @@
 
 :root {
   --main-color: #000000;
-  --link-hover: #6dc4ff;
+  --link-hover: #8b292c;
   --background: #000000;
 }
 
@@ -17,7 +17,8 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: black;
-    background: var(--background);
+    background: url(images/berries.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 .column {
@@ -39,7 +40,7 @@ a:hover {
 }
 
 .nav a:hover {
-    color: white;
+    color: var(--link-hover);
 }
 
 a.social {
@@ -85,7 +86,7 @@ a.social:hover {
 
 .nav {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     font-weight: 750;
     list-style-type: none;
@@ -110,6 +111,7 @@ header {
     overflow: hidden;
     padding-top: 60px;
     line-height: 1.25;
+    border-bottom: 3px solid white;
 }
 
 header .profile-image {
@@ -140,9 +142,10 @@ header .profile-image:hover {
 }
 
 .information {
-    background-color: #FFF;
-    color: var(--main-color);
+    background-color: var(--link-hover);
+    color: #fff;
     margin-bottom: 20px;
+    border: 2px solid white;
 }
 
 /*** CARD CSS ***/
@@ -162,7 +165,7 @@ header .profile-image:hover {
 }
 
 .card:hover {
-  border-color: var(--main-color);
+  border-color: var(--link-hover);
   transform: scale(1.05);
 }
 
@@ -197,6 +200,7 @@ footer .copyright {
     color: black;
     top: -8px;
     size: .75em;
+    color: white;
 }
 
 footer ul {
@@ -236,8 +240,8 @@ footer ul li {
     }
 
     .nav {
-        max-width: 90%;
-        padding: 10px 30px;
+        max-width: 100%;
+        padding: 10px 100px;
     }
 
     main p {
@@ -247,7 +251,7 @@ footer ul li {
     footer {
         font-size: 1.3em;
         max-width: 1200px;
-        margin: 40px auto;
+        margin: 10px auto;
     }
 
 }
@@ -305,7 +309,7 @@ footer ul li {
     footer {
         font-size: 1.3em;
         max-width: 1200px;
-        margin: 40px auto;
+        margin: 10px auto;
     }
 
 }
