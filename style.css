@@ -6,7 +6,7 @@
 :root {
   --main-color: #000000;
   --link-hover: #6dc4ff;
-  --background: #000000;
+  --background: #FFFFFF;
 }
 
 /*** GENERAL CSS ***/
@@ -140,7 +140,7 @@ header .profile-image:hover {
 }
 
 .information {
-    background-color: #222;
+    background-color: #FFF;
     color: var(--main-color);
     margin-bottom: 20px;
 }
