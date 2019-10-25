@@ -54,19 +54,19 @@ a.social {
 }
 
 a.twitter {
-  background-image: url(/images/TLogo.png);
+  background-image: url(images/TLogo.png);
 }
 
 a.facebook {
-  background-image: url(/images/FBLogo.png);
+  background-image: url(images/FBLogo.png);
 }
 
 a.insta {
-  background-image: url(/images/InstaLogo.png);
+  background-image: url(images/InstaLogo.png);
 }
 
 a.discord {
-    background-image: url(/images/discord.png);
+    background-image: url(images/discord.png);
 }
 
 a.social:hover {
