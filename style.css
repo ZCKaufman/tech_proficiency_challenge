@@ -73,6 +73,10 @@ a.social:hover {
   opacity: 1;
 }
 
+iframe {
+  width: 100%
+}
+
 /*** NAVIGATION CSS ***/
 .main-nav {
     width: 100%;
