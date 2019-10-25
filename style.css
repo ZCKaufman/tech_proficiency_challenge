@@ -54,15 +54,15 @@ a.social {
 }
 
 a.twitter {
-  background-image: url(/images/twitter.svg);
+  background-image: url(/images/TLogo.png);
 }
 
-a.linkedin {
-  background-image: url(/images/linkedin.svg);
+a.facebook {
+  background-image: url(/images/FBLogo.png);
 }
 
-a.github {
-  background-image: url(/images/github.svg);
+a.insta {
+  background-image: url(/images/InstaLogo.png);
 }
 
 a.discord {
