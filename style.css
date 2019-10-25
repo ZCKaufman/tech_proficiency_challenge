@@ -155,7 +155,7 @@ header .profile-image:hover {
 /*** CARD CSS ***/
 .card {
     margin: 20px 40px;
-    padding: 20px 40px 40px;
+    padding: 20px 40px;
     display: inline-block;
     width: 80%;
     max-height: 10000px;
@@ -169,7 +169,7 @@ header .profile-image:hover {
 }
 
 .card:hover {
-  border-color: var(--link-hover);
+  border-color: black;
   transform: scale(1.05);
 }
 
