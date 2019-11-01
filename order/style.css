@@ -242,6 +242,10 @@ footer ul li {
       font-size: 30px;
     }
 
+    button {
+      font-size: 30px
+    }
+
     .column {
         height: 100%;
         width: 50%;
