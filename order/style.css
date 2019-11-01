@@ -236,7 +236,10 @@ footer ul li {
 
     form {
       font-size: 30px;
+    }
 
+    input {
+      font-size: 30px;
     }
 
     .column {
