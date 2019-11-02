@@ -40,13 +40,17 @@
         <!-- CARDS -->
         <main class="flex" id="main">
           <div class="card">
-              <form>
-                Name: <input type="text"><br>
-                Order: <input type="text"><br>
-                Special Instructions: <input type="text"><br>
-                <!--SSN: <input type="text">-<input type="text">-<input type="text"><br>-->
-                <button>Submit</button>
-              </form>
+            <div class="form-style-2">
+            <div class="form-style-2-heading">Order some Bapu!</div>
+            <form action="https://kaufdrop.com" method="post">
+            <label for="field1"><span>Name<span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+            <label><span>Phone<span class="required">*</span></span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+            </select></label>
+            <label for="field5"><span>Order Details<span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+
+            <label class="center"><input type="submit" value="Submit" /></label>
+            </form>
+            </div>
             </div>
         </main>
 
