@@ -277,7 +277,7 @@ footer ul li {
 }
 
 /*** COMPUTER (>=720px) CSS ***/
-@media (min-width: 720px) {
+@media (min-width: 1064px) {
 
     .flex {
         flex-direction: row;
@@ -320,7 +320,7 @@ footer ul li {
 }
 
 /*** PHONE (<720px) CSS ***/
-@media (max-width: 720px) {
+@media (max-width: 1064px) {
 
 	.flex {
         flex-direction: column;
