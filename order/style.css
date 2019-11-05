@@ -148,13 +148,9 @@ header .profile-image:hover {
     border: 2px solid white;
 }
 
-.required {
-  color: red;
-}
-
 /*** CARD CSS ***/
 .card {
-    margin: 20px 425px;
+    margin: 20px 40px;
     padding: 20px 40px;
     display: inline-block;
     width: 80%;
@@ -224,9 +220,9 @@ footer ul li {
     .flex {
         flex-direction: row;
         display: inline-flex;
-        min-width: 100%;
+        min-width: 90%;
         max-width: 1200px;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
         align-content: center;
         margin: 40px auto;
@@ -266,7 +262,7 @@ footer ul li {
 	.flex {
         flex-direction: column;
         display: inline-flex;
-        min-width: 100%;
+        min-width: 90%;
         max-width: 720px;
         justify-content: flex-start;
         align-items: flex-start;
@@ -277,8 +273,7 @@ footer ul li {
     }
 
     .column {
-      height: 100%;
-      width: 50%;
+        width: 100%;
     }
 
     .card {
