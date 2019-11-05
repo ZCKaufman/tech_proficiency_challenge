@@ -35,13 +35,23 @@
         <header>
             <a href="../index.html"><img src="../images/bapu_logo.png" alt="Bapu Logo" class="profile-image"></a>
             <h1 class="tag title">Bapu Teahouse Snacks</h1>
-            <p class="tag information">Order Here</p>
+            <p class="tag information">Order Log</p>
         </header>
 
         <!-- CARDS -->
         <main class="flex" id="main">
           <div class="card">
-            <p align=left><img src="../images/thanks.png" height=82% width=82%></p>
+            <div class="form-style-2">
+            <div class="form-style-2-heading">Order some Bapu!</div>
+            <form action="../thankyou/index.html" method="post">
+            <label for="field1"><span>Name<span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+            <label><span>Phone<span class="required">*</span></span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+            </select></label>
+            <label for="field5"><span>Order Details<span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+
+            <label class="center"><input type="submit" value="Submit" /></label>
+            </form>
+            </div>
             </div>
         </main>
 
