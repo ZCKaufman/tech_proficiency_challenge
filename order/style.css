@@ -214,6 +214,68 @@ footer ul li {
     padding: 0 5px 0 0;
 }
 
+/*** Order Form ***/
+.required {
+  color: red;
+}
+
+.order-form-heading {
+  font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding-bottom: 3px;
+}
+
+.order-form label {
+  display: block;
+	margin-bottom: 10px
+}
+
+.order-form label span {
+  width: 100px;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.order-form .name-field,
+.order-form .phone-number,
+.order-form .order-field {
+  width: 50%;
+  font-size: 18px;
+  box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+
+.order-form .order-field {
+  width: 100%;
+  height: 100px;
+}
+
+.order-form input[type="submit"] {
+  border: 2px solid white;
+	padding: 8px 15px 8px 15px;
+	background: var(--link-hover);
+	color: #fff;
+	box-shadow: 1px 1px 4px black;
+	border-radius: 3px;
+}
+
+.order-form input[type="submit"]:hover {
+  transition: all .5s;
+  background: black;
+}
+
+.center {
+  text-align: center;
+}
+
 /*** COMPUTER (>=720px) CSS ***/
 @media (min-width: 720px) {
 
@@ -228,11 +290,12 @@ footer ul li {
         margin: 40px auto;
         flex-wrap: wrap;
         height: auto;
+        padding: 0 250px;
     }
 
     .column {
         height: 100%;
-        width: 50%;
+        width: 100%;
     }
 
     header {
