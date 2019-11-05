@@ -65,10 +65,6 @@ a.insta {
   background-image: url(images/InstaLogo.png);
 }
 
-a.discord {
-    background-image: url(images/discord.png);
-}
-
 a.social:hover {
   opacity: 1;
 }
